@@ -1,0 +1,125 @@
+Custom Subnet Masks:
+	Problem 7:
+		Number of needed subnets		:2000
+		Number of needed usable hosts	:15
+		Network address					:178.100.0.0
+		
+		Adress Class  					:B
+		Default subnet mask 			:255.255.0.0
+		Custom subnet mask  			:255.255.255.224
+		Total number of subnets			:2048
+		Total number of host address	:32
+		Number of usable addresses		:30
+		Number of bits borrowed 		:11
+		
+	Problem 15:
+		Number of needed usable hosts	:50
+		Network address					:172.59.0.0
+		
+		Adress Class 					:B
+		Default subnet mask				:255.255.0.0
+		Custom subnet mask				:255.255.255.192
+		Total number of subnets			:1024
+		Total number of host address	:64
+		Number of usable addresses		:62
+		Number of bits borrowed			:10
+Subnetting:
+	Problem 11:
+		Number of needed  usable hosts	:8,000
+		Network address					:135.70.0.0
+		
+		Address Class					:B
+		Default subnet mask				:255.255.0.0
+		Custom subnet mask				:255.255.224.0
+		Total number of subnets			:8
+		Total number of host addresses	:8192
+		Number of usable addresses		:8190
+		Number of bits borrowed			:3
+		
+		What is the 6th subnet range? 	:135.70.160.0 to 135.70.191.255
+		What is the subnet number 
+		for the 7th subnet?				:135.70.192.0
+		What is the subnet broadcast
+		address for the 3rd subnet		:135.70.95.255
+		What are the assignable 
+		addresses for the 5th subnet	:135.70.128.1 to 135.70.159.254
+	
+	Problem 12:
+		Number of needed usable hosts	:45
+		Network Address					:198.125.50.0
+		
+		Address Class					:C
+		Default subnet mask				:255.255.255.0
+		Custom subnet mask				:255.255.255.96
+		Total number of subnets			:4
+		Total number of host addresses	:64
+		Number of usable addresses		:62
+		Number of bits borrowed			:2
+		
+		What is the 2nd subnet range	:198.125.50.64 to 198.125.50.127
+		What is the subnet number for
+		the 2nd subnet					:198.125.50.64
+		What is the subnet broadcast
+		address for the 4th subnet		:198.125.50.255
+		What are the assignable 
+		addresses for the 3rd subnet	:198.125.50.129 to 198.125.50.190
+Practical Subnetting:
+	Problem 4: 
+		Ip Address						:135.126.0.0
+		Address Class					:B
+		Custom subnet mask				:255.255.240.0
+		Minimum number of subnets needed: 5 + 70% = 8.5 -> 9subnets (4 bits)
+		Number of host addresses in the 
+		largetst subnet group			:325 + 70% = 552.5 -> 553
+		
+		IP address range for New York	:135.126.0.0 to 135.126.15.255
+		IP address range for Washington	:135.126.16.0 to 135.126.31.255
+		IP address range for Dallas		:135.126.32.0 to 135.126.47.255
+		IP address range for Router A
+		to Router B serial				:135.126.48.0 to 135.126.63.255
+		Ip address range for Router A
+		to Router C serial				:135.126.64.0 to 135.126.79.255
+		
+	Problem 6:
+		IP Address						:10.0.0.0
+		Address Class					:A
+		Custom subnet mask				:255.0.0.0
+		Minimum subnets needed			:7 + 20% = 8.4 -> 9
+		total number of subnets needed	:16(4bits)
+
+		IP Address ranges:
+			Technology					:10.0.0.0 to 10.15.255.255
+			Science						:10.16.0.0 to 10.31.255.255
+			Arts & Drama				:10.32.0.0 to 10.47.255.255
+			Administration				:10.48.0.0 to 10.63.255.255
+			Router A to Router B 		:10.64.0.0 to 10.79.255.255
+			Router A to Router C 		:10.80.0.0 to 10.95.255.255
+			Router B to Router C 		:10.96.0.0 to 10.111.255.255
+		
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
