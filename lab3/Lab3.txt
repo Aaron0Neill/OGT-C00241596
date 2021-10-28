@@ -1,0 +1,9 @@
+Lab3
+
+Question 2:
+	The output will be sent through interface 1 as it has the longest matching prefix in binary.
+
+Question 3:
+	1. -> 192.24.6.0 will next hop to D as it has the longest matching prefix in binary with D.
+	2. -> 192.24.14.32 will next hop to B as it has the longest matching prefix in binary with B.
+	3. -> 192.24.54.0 will next hop to D as it has the longest matching prefix in binary with D. 
