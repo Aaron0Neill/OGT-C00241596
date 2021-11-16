@@ -1,0 +1,46 @@
+Lab 6
+
+Q1. 
+C -> 435 
+
+Q2.
+No. Since its about to send a segment of size 100 and sequence number 1234 means its just about to send bytes 1234 -> 1334, 
+It is not possible for the receiver to have received byte 1335
+
+Q3.
+2. Will increase timeout.
+
+Q4.
+DevRTT = (1-.25) * 8ms + 0.25 * (108-100)
+DevRTT =  .75 * 8 + .25 * 8
+DevRTT = 6 + 2 = 8
+newSmoothedRTT = 1-.125* 100 + .125 * 108
+newSmoothedRTT = 87.5 + 13.5 => 101
+Timeout Interval = 101 + 4*8 = 133ms
+
+Q5.
+C/D, the receive window field for the receiver is helpful for flow control
+but for the sender is its used for congestion control.
+
+Q6.
+B 1.5RTT (3 way handshake)
+
+Q7.
+A. Per-byte Sequence and ack numbers.
+
+Q8. 
+True
+
+Q9.
+SMTP
+HTTP
+FTP
+
+Q10.
+E -> 1.25seconds 
+
+Q11.
+C -> 4 seconds, the buffer will be overwhelmed by 2,500 bytes every second so the buffer will fill after 4 seconds
+
+Q12.
+B -> 40pkts / s, 
