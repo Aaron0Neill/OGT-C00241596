@@ -1,0 +1,44 @@
+Lab 7 
+
+Q1.
+True
+
+Q2.
+False
+
+Q3. 
+True
+
+Q4.
+False
+
+Q5.
+C -> Packet Loss
+
+Q6. 
+A -> Yes
+
+Q7. 
+A -> Triple Duplicate Ack
+
+Q8. 
+A -> Yes
+
+Q9.
+A -> More
+
+Q10. 
+The curved slope at A is because the network is in slow start mode
+
+Q11/12.
+C -> 400 ms, packet size starts at 1k bytes, every 100ms it doubles, so 2k,4k,8k.
+
+Q13.
+C -> 1200ms 
+
+Q14.
+B -> 600ms, 400ms from slow start -> 8K then 2*RTT to get from 8k -> 10k
+
+Q15. 
+If one person has left the IP router (receiving no packets) the other user would be able to avail
+of more bandwidth.
