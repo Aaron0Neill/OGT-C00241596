@@ -1,0 +1,11 @@
+Lab 8 
+
+Q1.
+The major difference between the TCP Client and Server is that the client connects to the server while the server binds itself to a specific port.
+this will allow the server to receive any packets sent to it on the port specified and allows the server to handle all clients that connect to it.
+
+
+Q2. 
+The major difference between TCP Server and UDP Server is that a UDP connect is connectionless so when it's bound to a port it doesn't care who sends the packet.
+when the packet is sent if the UDP server doesn't handle it (packet gets lost) the UDP connection won't care. 
+The TCP Connection would keep retrying until the correct packet is received.
