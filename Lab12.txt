@@ -1,0 +1,57 @@
+Lab 12.
+
+A)
+Client/Server
+ADV.
+    Client server will allow a more stable connection, i.e in a P2P connection if one of the 
+    connections drop, maybe the host all the people connectioned would crash out as they are
+    no longer receieving information. With a Client/Server connection even if 50% of the clients
+    drop the server will still be able to send data between the 50% that remain.
+DISADV.
+    Client server are more costly as you have to setup servers anywhere you want there to be
+    a stable connection, if you only want players in ireland to be able to connect, you could
+    just set up a server in Dublin and be fine, but someone in Russia would have terrible latency
+    conencting to the server, so you need servers spread around. 
+
+P2P
+ADV.
+    Peer to peer is a cheaper solution, since you can build the connection straight into the game,
+    anyone can be the host and anyone can be the client. It can have a much shorter setup time.
+DISADV.
+    Each Node on the connection can both send and receive which can take up a lot of resources, 
+    it would be great for a small 5v5 game, but once the number of players starts to increase the
+    strain on each peer gets greater which can result in bottlenecks.
+
+------------------------------------------------------------------------------------------------
+
+B)
+In a peer-to-peer connection, the client will connect to the host and once the host and client have
+successfully connected then the host will reveal all the other clients to the new connection.
+
+Diagram
+    P1
+      \
+        Host
+P1 and the host have successfully formed a connection, then a P2 joins
+    P1        P2
+      \      /
+        Host
+Once P2 successfully joins to the host, the host will inform P2 of P1 and they will form a connection
+then.
+    P1--------P2
+      \      /
+        Host
+
+------------------------------------------------------------------------------------------------
+
+C)
+Hole-punching is a technique that is employed when the user wishes to try and make a direct connection
+with another peer, in this case when there is "port restriction", 
+Hole punching is when you temporarily use a server to acquire the relevant information needed for a
+direct connection from the other peer. 
+So you both connect to the server with UUID's, one client tries to connect to the peer he wishes
+to try get a direct connection with. 
+You then send packed to the the peer, knowing it won't make it to them.
+Then the peer attempts to send you a pacet which will get through as your network is waiting for 
+a response.
+Once you get the response you will have all the needed information to connect directly.
