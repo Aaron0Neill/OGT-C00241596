@@ -1,0 +1,35 @@
+a)
+using hoffman encoding, you would create a binary tree of height 4.
+The optimal coding for each chatacter is as follows:
+A - 011
+B - 010
+C - 001
+D - 000
+E - 1
+
+The average number of bits would be:
+(1 * 45) + (3 * 20) + (3 * 15) + (3 * 15) + (3 * 5) / 100 = 2.1 bits
+
+b) 
+Delta compression works by only sending information that has Not been sent before,
+this can be very useful in games, for updating the players position in a simple 
+side scroller game, using delta compression the information will only get sent when
+the player is not in the same position he was the last time the information was sent.
+I.e the data has changed.
+
+c)
+Given the string BABAABAAA using LZW algorithm to compress it will yield the result:
+A = 0       0000 0000
+B = 1       0000 0001
+BA = 2      0000 0010
+AB = 3      0000 0011
+BAA = 4     0000 0100   
+BAAA = 5    0000 0101
+
+so the final output would be: 245 -> (0000 0010) (0000 0100) (0000 0101) 
+This is a significant amount smaller than 
+BABAABAAA originally would be: 
+A = (0100 0001)
+B = (0100 0010)
+
+(0100 0010) (0100 0001) (0100 0010) (0100 0001) (0100 0001) (0100 0010) (0100 0001) (0100 0001) (0100 0001)
