@@ -1,0 +1,18 @@
+a) 
+No latency can not be eliminated completely, latency is just a part of computers
+no matters what we do there will be a latency, we can get that to a point where we
+can't notice it but unfortunately we cant remove it entirely.
+
+b)
+if a player is lagging really bad and the game is designed poorly, the player could
+potentially run peak around a corner and shoot, then peak back in, on the players screen
+he would obviously be able to move around the corner see another player, shoot and peak back
+but if there was a latency issue the server could be delayed in receiving infromation about 
+the players position and he could be back behind cover before the server has received the 
+information that he was around the corner.
+
+c)
+the dumb client belongs to the conservative category as it implies strict limitations on 
+how the game will be updated.
+Client-side prediction is a blend of the optimisitc category as it allows for local movement 
+on the players side but alos allows the server to check fix any issues that appear at a later time.
