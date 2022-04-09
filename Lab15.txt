@@ -1,0 +1,23 @@
+A)
+There is several ways of cheating, it all depends on the game. One way to cheat
+in a game called cookie clicker is to get a software that simulates mouse clicks
+(usually at a speed humans can't) so they can get an unfair advantage by collecting
+an amount that shouldn't be possible.
+One way to prevent this would be by checking to see how often the user clicks, usally
+software will click at a given time, so every 100ms it will click, so if the number of clicks
+per second is exactly the same you can confirm it's not a human doing it.
+
+Another way to cheat in fps games is to get a software that will hook into the messaging system 
+for the game and reveal the locations of the players on the opposite team and show the player. 
+either through visuals through the wall or markers on the map. The way most games combat this
+is with an anti-cheat software as well as a system where when players report someone they get reviewed 
+by other humans and they determine if the actions are humanly possible or not.
+
+B)
+A potentially visible set is something the game has flagged that should be sent across,
+that means it's something close to the player, just behind a wall etc. It is something that can change 
+and could be sent across. 
+Static zones are areas like buildings, or even players that are too far away from the player to but updated.
+Interest management is very beneficial to games, as it helps prevent cheaters from learning the positions of players
+that are really far from the main user. 
+It also helps cut down on the amount of bandwidth needed.
